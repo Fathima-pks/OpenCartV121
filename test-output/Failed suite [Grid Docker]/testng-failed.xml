@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Grid Docker]]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Linux-edge(failed)(failed)">
+    <parameter name="os" value="Linux"/>
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="testCases.TC_002_LoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="TestLlogin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_002_LoginTest -->
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="testRegistration"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+      <class name="testCases.TC_003_LoginDataDrivenTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="testLlogin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_003_LoginDataDrivenTest -->
+    </classes>
+  </test> <!-- Linux-edge(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Grid Docker]] -->

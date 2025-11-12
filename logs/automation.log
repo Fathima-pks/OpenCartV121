@@ -1,0 +1,15 @@
+2025-11-12 09:26:40 INFO  Utils:112 - [TestNG] Running:
+  D:\SHAHID\Fathima\2025\JAVA\Selenium\Myworkspace\OpenCartV121\crossBrowserTesting.xml
+
+2025-11-12 09:27:09 INFO  TC_001_AccountRegistrationTest:17 - ******Starting Registration TestCase******
+2025-11-12 09:27:11 INFO  TC_001_AccountRegistrationTest:20 - clicked on Myaccount link
+2025-11-12 09:27:12 INFO  TC_001_AccountRegistrationTest:22 - clicked on Register link
+2025-11-12 09:27:12 INFO  TC_001_AccountRegistrationTest:26 - Account details are start capturing
+2025-11-12 09:27:15 INFO  TC_001_AccountRegistrationTest:17 - ******Starting Registration TestCase******
+2025-11-12 09:27:16 INFO  TC_001_AccountRegistrationTest:39 - validating the confirmation message
+2025-11-12 09:27:17 INFO  TC_001_AccountRegistrationTest:20 - clicked on Myaccount link
+2025-11-12 09:27:17 INFO  TC_001_AccountRegistrationTest:47 - TestPassed
+2025-11-12 09:27:17 INFO  TC_001_AccountRegistrationTest:58 - ******Finished Registration TestCase******
+2025-11-12 09:30:39 INFO  Utils:112 - [TestNG] Running:
+  D:\SHAHID\Fathima\2025\JAVA\Selenium\Myworkspace\OpenCartV121\crossBrowserTesting.xml
+
